@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
     font-family: Outfit;
 }
-.container{
+body{
     width: 100%;
     background-color: #d5e1ef;
     display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .box{
@@ -53,4 +56,6 @@ p{
     line-height: 19px;
     font-size: 16px;
     color: #7D889E;
+    font-weight: 400;
+    font-family: 'outfit';
 }
